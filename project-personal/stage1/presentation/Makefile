@@ -1,7 +1,7 @@
 # FILES = $(patsubst %.md, %.docx, $(wildcard *.md))
 FILES += $(patsubst %.md, %.pdf, $(wildcard *.md))
 
-FILTERS =
+FILTERS = ../../../labs/presmd.yaml
 PDF_ENGINE =
 PDF_OPTIONS =
 PDF_FORMAT_OPTIONS = -t beamer --slide-level=2
