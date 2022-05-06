@@ -1,7 +1,7 @@
 FILES = $(patsubst %.md, %.docx, $(wildcard *.md))
 FILES += $(patsubst %.md, %.pdf, $(wildcard *.md))
 
-FILTERS =
+FILTERS = ../../../labs/metadata.yaml
 OPTIONS =
 PDF_ENGINE =
 PDF_OPTIONS =
