@@ -1,5 +1,5 @@
 # FILES = $(patsubst %.md, %.docx, $(wildcard *.md))
-FILES += $(patsubst %.md, %.pdf, $(wildcard *.md))
+FILES += $(patsubst %.md, %.pdf, $(wildcard presentation.md))
 
 FILTERS = ../../../labs/presmd.yaml
 PDF_ENGINE =
